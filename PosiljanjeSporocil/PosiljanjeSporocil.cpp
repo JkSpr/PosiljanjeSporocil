@@ -140,6 +140,10 @@ int main()
     messageReceiver.message = messageSender.message;
     messageReceiver.SortMessagesByTimeStamp();
     messageReceiver.PrintMessages();
+
+    std::cout << "\nPress any key to continue...\n";
+    std::cin.get();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
